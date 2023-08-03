@@ -1,0 +1,36 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color: blanchedalmond;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background-image: -moz-element(image1);
+}
+/* 
+background {
+    display: contents;
+    background-color: blue;
+    font-size: medium;
+}
+button :active {
+    transform: scale(1.1);
+    color: brown;
+}
+button-next {
+    bottom: right;
+    color: brown;
+} */
